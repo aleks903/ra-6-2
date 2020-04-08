@@ -9,7 +9,8 @@ export default class BoardNotes extends Component {
     this.state = {
       notes: [],
     };
-    this.URL = 'http://localhost:7777/notes';
+    // this.URL = 'http://localhost:7777/notes';
+    this.URL = 'https://ra-6-2-b.herokuapp.com/notes';
   }
 
   render() {
